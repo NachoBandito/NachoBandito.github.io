@@ -1,0 +1,57 @@
+body, html {
+	height: 100%;
+	width: 100%;
+}
+
+body {
+	font-family: 'Eagle Lake', cursive;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 1.5); 
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("background.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 180px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 2rem; 
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Eagle Lake', cursive;
+}
+
+.btn-xl {
+  padding: 1rem 2rem; 
+}
+
+.btn-primary {
+  background-color: rgba(192, 251, 139, .22);
+  border-color: white; 
+}
+
+.btn-primary:hover {
+  background-color: rgba(192, 251, 139, .22);
+  border-color: white;
+  border-width: 3px;
+  cursor: pointer;
+}
+
+hr {
+  max-width: 65px;
+  border-width: 4px;
+  border-color: white; 
+}
